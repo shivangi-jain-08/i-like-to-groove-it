@@ -1,114 +1,148 @@
+/* importing font */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
-body{
-    font-family: 'Work Sans', sans-serif;
-    text-align: center;
-    
+/* styling body */
+    body{
+        font-family: 'Work Sans', sans-serif;
+        text-align: center;
+    }
 
-}
+/* header starts */
+    header{
+        background-color: black;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header>p{
+        font-size: 25px;
+        color: white;
+        font-weight: 700;
+    }
+/* header ends */
 
-.main-page{
-    background-image: url(https://kq-storage.s3.ap-south-1.amazonaws.com/Github/groove-bg%5B1%5D.png);
-    width: 100%;
-    height: 650px;
-    background-size: 100% 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+/* main page starts */
+    .main-page{
+        background-image: url(https://kq-storage.s3.ap-south-1.amazonaws.com/Github/groove-bg%5B1%5D.png);
+        width: 100%;
+        height: 650px;
+        background-size: 100% 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
-h1{
-    font-size: 55px;
-    line-height: 55px;
-    margin: 5px;
-}
+    h1{
+        font-size: 55px;
+        line-height: 55px;
+        margin: 5px;
+    }
 
-.main-page>p{
-    font-size: 20px;
-    width: 600px;
-}
+    .main-page>p{
+        font-size: 20px;
+        width: 600px;
+    }
 
-.main-page>input{
-    padding: 20px;
-    background-color: #36C673;
-    border: none;
-    font-size: 15px;
-    color: white;
-    font-weight: 700;
-}
+    .main-page>input{
+        padding: 20px;
+        background-color: #36C673;
+        border: none;
+        font-size: 15px;
+        color: white;
+        font-weight: 700;
+    }
+/* main page ends */
 
-.table-page{
-    display: flex;
-    flex-direction: column;
-    padding: 40px 210px;
-    justify-content: center;
-    align-items: center;
+/* table page starts */
+    .table-page{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 210px;
+        justify-content: center;
+        align-items: center;
+    }
 
-}
+    h2{
+        font-size: 30px;
+        font-weight: 700;
+        margin: 40px;
+    }
 
-h2{
-    font-size: 30px;
-    font-weight: 700;
-    margin: 40px;
-}
+    table, th, td{
+        border: 2px solid #C8C8B3;
+        border-collapse: collapse;
+    }
 
-table, th, td{
-    border: 2px solid #C8C8B3;
-    border-collapse: collapse;
+    th{
+        background-color: #36C673;
+        color: white;
+        padding: 20px;
+    }
 
-}
+    td{
+        padding: 20px;
+    }
 
-th{
-    background-color: #36C673;
-    color: white;
-    padding: 20px;
-}
+    img{
+        width: 100px;
+    }
 
-td{
-    padding: 20px;
-}
+    .quantity{
+        width: 40px;
+        margin: 20px;
+    }
 
-img{
-    width: 100px;
-}
+    tr:hover{
+        background-color: #F4F4BE;
+    }
 
-.quantity{
-    width: 40px;
-    margin: 20px;
-}
+    .table-page>p{
+        margin-top: 40px;
+        margin-bottom: 0px;
+        font-size: 18px;
+    }
 
-tr:hover{
-    background-color: #F4F4BE;
-}
+    .table-page>input{
+        width: fit-content;
+    }
 
-.table-page>p{
-    margin-top: 40px;
-    margin-bottom: 0px;
-    font-size: 18px;
-}
+    #mobile{
+        padding: 5px;
+        margin: 20px;
+        border-radius: 5px;
+    }
 
-.table-page>input{
-    width: fit-content;
-}
+    #buy{
+        padding: 15px 20px;
+        background-color: #36C673;
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+        border: none;
+    }
 
-#mobile{
-    padding: 5px;
-    margin: 20px;
-    border-radius: 5px;
-}
+    #message{
+        font-size: 25px;
+        font-weight: 700;
+        margin-top: 0px;
+    }
+/* table page ends */
 
-#buy{
-    padding: 15px 20px;
-    background-color: #36C673;
-    color: white;
-    font-size: 15px;
-    font-weight: 700;
-    border: none;
-}
+/* footer starts */
+    footer{
+        background-color: black;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-#message{
-    font-size: 25px;
-    font-weight: 700;
-    margin-top: 0px;
-}
+    footer>p{
+        color: white;
+        font-size: 18px;
+    }
+/* footer ends */
