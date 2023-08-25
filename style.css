@@ -2,9 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 /* styling body */
+    *{
+        margin: 0;
+    }
+
     body{
         font-family: 'Work Sans', sans-serif;
         text-align: center;
+        
     }
 
 /* header starts */
@@ -53,6 +58,7 @@
         font-size: 15px;
         color: white;
         font-weight: 700;
+        margin-top: 20px;
     }
 /* main page ends */
 
