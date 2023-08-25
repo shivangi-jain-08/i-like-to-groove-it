@@ -21,10 +21,8 @@
         align-items: center;
         justify-content: center;
     }
-    header>p{
-        font-size: 25px;
-        color: white;
-        font-weight: 700;
+    header>img{
+        height: 50px;
     }
 /* header ends */
 
@@ -92,7 +90,7 @@
         padding: 20px;
     }
 
-    img{
+    .table-page>img{
         width: 100px;
     }
 
